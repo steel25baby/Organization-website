@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pinyon+Script&display=swap');
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --font-family-serif: 'PT Serif', serif;
+    --font-family-script: 'Pinyon Script', cursive;
+    --color-primary: #141619;
+    --color-secondary: #EDE8F5;
+    --color-tertiary: #66FCF1;
+    --color-quaternary: #050A44;
+    --color-quinary: #0A21C0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--color-quaternary);
+}
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-links-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-transform: capitalize;
+}
+.navbar-links-list a {
+    text-decoration: none;
+    color: #0A21C0;
+}
+.navbar-ctas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar-ctas-button {
+    padding:15px 20px;
+    font-size: 20px;
+    color: #66FCF1;
+    background: transparent;
+    border: 2px solid #66FCF1;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px #66FCF1, 0 0 5px #66FCF1;
+}
+.navbar-ctas-button:hover {
+    color: #66FCF1;
+    background: #141619;
+    box-shadow: 0 0 5px #66FCF1, 0 0 15px #66FCF1, 0 0 25px #66FCF1;
+    transform: scale(1.05);
+}
