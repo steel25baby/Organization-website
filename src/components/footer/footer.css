@@ -1,0 +1,57 @@
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --font-family-serif: 'PT Serif', serif;
+    --font-family-script: 'Pinyon Script', cursive;
+    --color-primary: #141619;
+    --color-secondary: #EDE8F5;
+    --color-tertiary: #66FCF1;
+    --color-quaternary: #050A44;
+    --color-quinary: #0A21C0;
+}
+.Footer{
+    background-color: #050A44;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.Contact-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EDE8F5;
+}
+.footer-icons{
+    display: flex;  
+    color: #0A21C0;
+}
+
+.Pages-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.Pages-icons h3{
+    color: #EDE8F5;
+}
+.location{
+    justify-content: center;
+    align-items: center;
+}
+.location h3{
+    color: #EDE8F5;
+}
+.location h5{
+    color: #0A21C0;
+}
+.get-in-touch{
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch h3{
+    color: #EDE8F5;
+}
+.get-in-touch h5{
+    color: #0A21C0;
+}

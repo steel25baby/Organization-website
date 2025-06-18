@@ -5,6 +5,7 @@ import About from './pages/about/about'
 import Navbar from './components/navbar/navbar'
 import Events from './pages/events/events'
 import Contacts from './pages/contacts/contacts'
+import Footer from './components/footer/footer'
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )
