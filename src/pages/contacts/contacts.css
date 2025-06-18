@@ -1,0 +1,105 @@
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --font-family-serif: 'PT Serif', serif;
+    --font-family-script: 'Pinyon Script', cursive;
+    --color-primary: #141619;
+    --color-secondary: #EDE8F5;
+    --color-tertiary: #66FCF1;
+    --color-quaternary: #050A44;
+    --color-quinary: #0A21C0;
+}
+.Contacts{
+    background-color:#141619;
+    padding: 3rem;
+}
+.contact-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: #66FCF1 solid 2px;
+    margin-bottom: 3rem;
+    border-radius: 10%;
+}
+.Contacts-banner-image img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+.RegisterWrapper{
+    border: #66FCF1 solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10%;
+}
+.RegisterWrapper h1{
+    color: #EDE8F5;
+}
+.RegisterWrapper p{
+    color: #EDE8F5;
+    text-transform: capitalize;
+}
+.CustomerDetails{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 10px;
+}
+.CustomerDetails label{
+    font-size: 20px;
+    color: #EDE8F5;
+    margin-bottom: 5px;
+}
+.CustomerDetails input{
+    padding: 10px;
+}
+.CustomerDetails::placeholder{
+    font-size: 20px;
+}
+.form-button{
+    padding: 10px 50px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: #0A21C0;
+    border-radius: 20px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.info{
+    border: #66FCF1 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-width: 50%;
+}
+.info-header{
+    text-align: center;
+    color: #0A21C0;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.info-icons{
+    text-align: center;
+    color: #EDE8F5;
+}
+.Visiting-hours{
+    border: #66FCF1 2px solid;
+    min-width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Visiting-hours h3{
+    color: #0A21C0;
+    text-transform: capitalize;
+}
+.Visiting-hours p{
+    color: #EDE8F5;
+}
