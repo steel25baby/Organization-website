@@ -1,9 +1,17 @@
 import React from 'react'
 import './homepage.css'
-
+import {Link} from "react-router-dom"
+import Hero from './Hero'
+import Aboutus from './Aboutus'
+import Testimonials from './Testimonials'
 const homepage = () => {
   return (
-    <div>homepage</div>
+    <section className='home'>
+      <Hero />
+      <Aboutus />
+      <Testimonials />
+
+    </section>
   )
 }
 
