@@ -1,3 +1,57 @@
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --font-family-serif: 'PT Serif', serif;
+  --font-family-script: 'Pinyon Script', cursive;
+  --color-primary: #141619;
+  --color-secondary: #EDE8F5;
+  --color-tertiary: #66FCF1;
+  --color-quaternary: #050A44;
+  --color-quinary: #0A21C0;
+}
+.about {
+  background-color: black;
+}
+.about .Aboutheading h1 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--secondary-font);
+  font-size: 80px;
+  font-weight: 300;
+  color: #0A21C0;
+  margin-bottom: 0rem;
+}
+.about .Topics {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  /* margin: 1rem; */
+  column-gap: 1rem;
+}
+.about .Topics .Topic1 {
+  border: #EDE8F5 solid 2px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.about .Topics .Topic1 h1 {
+  display: flex;
+  justify-content: center;
+  color: #0A21C0;
+  font-size: 100px;
+}
+.about .Topics .Topic1 h2 {
+  display: flex;
+  justify-content: center;
+  color: #0A21C0;
+  font-size: 20px;
+}
+.about .Topics .Topic1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var #EDE8F5;
+  font-weight: 100;
+  font-size: 15px;
+}
 body {
     background-color: #000000;
   }
