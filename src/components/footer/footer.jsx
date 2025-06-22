@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Footer.css"
+import "./footer.css"
 import { Link } from 'react-router-dom'
 import { IoLogoInstagram } from "react-icons/io5";
 import { SlSocialFacebook } from "react-icons/sl";
